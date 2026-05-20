@@ -5,7 +5,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHANNEL_ID = os.environ["CHANNEL_ID"]
-PDF_FILE_ID = os.environ["PDF_FILE_ID"]
+PDF_FILE_ID = ""
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
