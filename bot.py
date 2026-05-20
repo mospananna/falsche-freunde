@@ -19,7 +19,7 @@ def keyboard():
 @dp.message(CommandStart())
 async def start(message: types.Message):
     await message.answer(
-        "👋 Привет! Подпишись на канал и получи PDF бесплатно.",
+        "👋 Hallo! Подпишись на канал и получи PDF в подарок!,",
         reply_markup=keyboard()
     )
 
